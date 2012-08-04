@@ -7,6 +7,7 @@
 *.dll
 *.exe
 *.manifest
+*.vcxproj.filters
 
 *.ReSharper
 _ReSharper*
