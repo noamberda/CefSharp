@@ -42,7 +42,7 @@
 			<Tool
 				Name="VCCLCompilerTool"
 				Optimization="0"
-				AdditionalIncludeDirectories="$(SolutionDir)"
+				AdditionalIncludeDirectories="..\"
 				PreprocessorDefinitions="_DEBUG;_WIN32_WINNT=0x0600;WINVER=0x0600;WIN32;_WINDOWS;WIN32_LEAN_AND_MEAN;USING_CEF_SHARED;_CRT_SECURE_NO_WARNINGS;EXPORT"
 				RuntimeLibrary="3"
 				UsePrecompiledHeader="2"
@@ -66,13 +66,13 @@
 				AdditionalDependencies="opengl32.lib glu32.lib libcef.lib libcef_dll_wrapper.lib"
 				ShowProgress="1"
 				LinkIncremental="1"
-				AdditionalLibraryDirectories="$(SolutionDir)libs\$(ConfigurationName)\"
+				AdditionalLibraryDirectories="..\libs\$(ConfigurationName)\"
 				IgnoreAllDefaultLibraries="false"
 				IgnoreDefaultLibraryNames=""
 				GenerateDebugInformation="true"
 				AssemblyDebug="1"
 				TargetMachine="1"
-				KeyFile="$(SolutionDir)\CefSharp.snk"
+				KeyFile="..\CefSharp.snk"
 			/>
 			<Tool
 				Name="VCALinkTool"
