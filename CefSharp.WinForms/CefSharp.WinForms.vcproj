@@ -116,7 +116,7 @@
 			/>
 			<Tool
 				Name="VCCLCompilerTool"
-				AdditionalIncludeDirectories="$(SolutionDir);$(SolutionDir)CefSharp"
+				AdditionalIncludeDirectories="..\;..\CefSharp"
 				PreprocessorDefinitions="WIN32;NDEBUG"
 				RuntimeLibrary="2"
 				UsePrecompiledHeader="0"
@@ -137,7 +137,7 @@
 				AdditionalDependencies="libcef.lib libcef_dll_wrapper.lib CefSharp.lib"
 				ShowProgress="1"
 				LinkIncremental="1"
-				AdditionalLibraryDirectories="$(SolutionDir)libs\$(ConfigurationName);$(SolutionDir)CefSharp\bin\$(ConfigurationName)"
+				AdditionalLibraryDirectories="&quot;..\libs\$(ConfigurationName)&quot;;&quot;..\CefSharp\bin\$(ConfigurationName)&quot;"
 				GenerateDebugInformation="false"
 				TargetMachine="1"
 			/>
